@@ -32,6 +32,11 @@ The raw stylesheet only contains @2x style, and if you
 
 **Attention: Dealing with SASS or LESS, only `/*...*/` comment can be used, in order to have the comments persisted**
 
+## new options
+https://www.npmjs.com/package/css#declaration
+shouldUseDprRule : Function<declaration>
+shouldIgnoreRule : Function<declaration>
+
 ### CLI tool
 
 ```
